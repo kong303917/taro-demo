@@ -1,3 +1,5 @@
+const path = require('path')
+
 const config = {
   projectName: 'taro-test-demo',
   date: '2020-9-2',
@@ -19,7 +21,7 @@ const config = {
     }
   },
   sass: {
-    resource: path.join(__dirname, '../src/assets/style/theme.scss'),
+    resource: path.join(__dirname, '../src/assets/styles/index.scss'),
   },
   alias: {
     '@/src': path.resolve(__dirname, '..', 'src'),
